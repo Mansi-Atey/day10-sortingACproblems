@@ -2,7 +2,7 @@
 read -p "Enter First Number." a
 read -p "Enter Second Number." b
 read -p  "Enter Third Number." c
-T3=$(($(($c + $a)) / $b))
-echo $T3
+T4=$(($(($a % $a)) + $b))
+echo $T4
 
 
