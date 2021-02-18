@@ -29,7 +29,7 @@ for((i=0;i<${#arr[@]};i++))
 do
  for((j=0;j<${#arr[@]};j++))
 do
-  if [[ ${arr[$j]} -lt ${arr[$i]} ]]
+  if [[ ${arr[$j]} -gt ${arr[$i]} ]]
 then
  temp=${arr[$i]}
 arr[$i]=${arr[$j]}
